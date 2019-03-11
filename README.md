@@ -21,3 +21,11 @@ Software Engineering
 </ul>
 
 # Vai trò của từng thành viên:
+<ul>
+  <li>The Team: Trần Văn Khải
+    <ul>
+      <li>Font-end</li>
+      <li>Database</li>
+    </ul>
+  </li>
+</ul>
