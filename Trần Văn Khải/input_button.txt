@@ -1,1 +1,10 @@
-s�dsaddsadsad
+<form class="navbar-form navbar-left" action="search.php">
+      <div class="input-group">
+          <input type="text" name="ten" value="" class="form-control" size="70" placeholder="Từ khóa tìm kiếm" class="form-control input-lg">
+          <div class="input-group-btn">
+            <button class="btn btn-default" type="submit" name="submit" value="Tìm Kiếm">
+              <i class="glyphicon glyphicon-search"></i>
+            </button>
+          </div>
+      </div>
+    </form>
