@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset='utf-8'/>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="C:\Users\a\Desktop\web\zoomanh.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+ 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'></script>
+	<script src='jquery.zoom.js'></script>
+	<script>
+		$(document).ready(function(){
+			$('#ex1').zoom();
+		});
+	</script>
+	<title>jQuery Zoom Demo</title>
+<style type="text/css">
+	#id1{
+        text-decoration-color: red;
+      }
+      #link_name{
+        text-decoration: none;
+      }
+      th{
+        text-align: center;
+      }
+      ul li:hover ul {
+        display: block;   
+      }
+      li.li_1:hover {
+        background: #00BB00;
+      }
+      #linkmau:hover{
+        color: red;
+        size: 14;
+      }
+      ul li ul li a {display:block !important;} 
+      ul li ul li:hover {background: #666;}
+
+      div.thumbnail_1:hover {
+      border: 1px solid gray;
+      }
+
+      div {
+        display: block;
+      }
+
+      table, th, td {
+  border: 1px solid gray;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 5px;
+  text-align: left;    
+}
+</style>
+	
+</head>
+<body>
+	<nav class="navbar navbar-default" style="background-color: #3366CC;">
+  <div class="container">
+      <div class="row">
+        <div class="col-sm-2">
+          <div>
+            <a href="#"><img src="" class="img-responsive" alt="picture"></a>
+          </div>
+        </div>
+
+        <div class="col-sm-10">
+          <form class="navbar-form navbar-left">
+            <div class="input-group">
+                <input type="text" class="form-control" size="50" placeholder="Search" class="form-control input-lg">
+                <div class="input-group-btn">
+              <button class="btn btn-inverse">
+                  <i class="glyphicon glyphicon-search" style="color: #1C1C1C"></i></button>
+                </div>
+            </div>
+          </form>
+          <div class="navbar-left">
+            <ul class="nav navbar-nav">
+              <li class="li_1"><a href="#" class="btn btn-lg">
+                <span class="glyphicon glyphicon-shopping-cart" style="color: white">
+                </span></a></li>
+            </ul>
+          </div>
+          <div class="navbar-right">
+            <ul class="nav navbar-nav">
+              <li class="li_1"><a href="#" class="btn btn-lg"><span class="glyphicon glyphicon-user" style="color: white"></span></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+  </div>
+</nav> 
+
+	<span class='zoom' id='ex1'>
+		<img src='C:\Users\a\Desktop\web\anh1.jpg' width='555' height='320' alt='Daisy on the Ohoopee'/>
+	</span>
+</body>
+</html>
